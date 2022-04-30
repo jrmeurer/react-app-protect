@@ -22,10 +22,10 @@ const Protect = ({
   const [pass, setPass] = React.useState('')
 
   const [cipher, setCipher] = usePersistedState('cipher', '')
-  const context = React.useMemo(() => ({ cipher, setCipher }), [
-    cipher,
-    setCipher
-  ])
+  // const context = React.useMemo(
+  //   () => ({ cipher, setCipher }),
+  //   [cipher, setCipher]
+  // )
 
   const refBlur = React.useRef(null)
   const [renderChild, setRenderChild] = React.useState(true)
