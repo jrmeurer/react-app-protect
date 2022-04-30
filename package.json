@@ -35,8 +35,7 @@
   "peerDependencies": {
     "@fingerprintjs/fingerprintjs": "^3.0.4",
     "crypto-js": "^4.0.0",
-    "html2canvas": "^1.0.0-rc.7",
-    "react": "^16.0.0"
+    "html2canvas": "^1.0.0-rc.7"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
